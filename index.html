@@ -7,7 +7,7 @@
   <title>Resume</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
 </head>
 <body>
@@ -18,18 +18,18 @@
           <nav class="header__nav">
             <ul class="header__list">
               <li class="header__item">
-                  <a href="#my" class="header__link js-scroll">Главная</a></li>
+                  <a href="#home" class="header__link ">Главная</a></li>
               <li class="header__item">
-                <a href="#about-me" class="header__link js-scroll">Обо мне</a>
+                <a href="#about_me" class="header__link ">Обо мне</a>
               </li>
               <li class="header__item">
-                <a href="#skills" class="header__link js-scroll">Навыки</a>
+                <a href="#my_skills" class="header__link ">Навыки</a>
               </li>
               <li class="header__item">
-                <a href="#portfolio" class="header__link js-scroll">Портфолио</a>
+                <a href="#my_projects" class="header__link ">Портфолио</a>
               </li>
               <li class="header__item">
-                <a href="#contact" class="header__link js-scroll">Контакты</a>
+                <a href="#my_contacts" class="header__link ">Контакты</a>
               </li>
             </ul>
             <div class="header__nav-close">
@@ -44,7 +44,7 @@
           </div>
       </div>
 
-      <div class="header__info__container" id="my">
+      <div class="header__info__container" id="home" >
         <div class="header__content">
           <h1 class="header__name">Мария Бахлина</h1>
           <p class="header__developer"> Junior HTML Coder</p>
@@ -59,21 +59,21 @@
   <!-- Main start -->
   <main class="main">
 <!-- About me start -->
-    <section id="about-me" class="about__me">
+    <section   class="about__me">
       <div class="wrapper__full wrapper">
-        <div class="about__me__container">
+        <div class="about__me__container" id="about_me">
           <h2 class="about__me__titile title">Обо мне</h2>
           <div class="about__me__cont__desc">
             <p class="about__me__desc-1 desc">
-              Привет, я начинающий верстальщик.Мне 24 года, живу в Киеве. В дальнейшем планирую развиваться как Front-end developer. В декабре 2018 года закончила магистратуру в НТУУ "КПИ им. Игоря Сикорского".
+              Привет, мне 24 года, живу в Киеве. Сейчас развиваюсь как верстальщик, в дальнейшем вижу себя как Front-end developer. В декабре 2018 года закончила магистратуру в НТУУ "КПИ им. Игоря Сикорского", специальность "инженер-электромеханик".
             </p>
             
             <p class="about__me__desc-2 desc">
-              Почему именно Front-end, спросите вы? - Мне по душе работа, у которой четко виден результат, поэтому и выбрала веб-разработкау. А постоянные обновления и изменения технологий позволяют не стоять на месте и быть в тонусе.
+              Почему именно Front-end, спросите вы? - За несколько лет успела поработать в разных сферах и поняла, что по душе работа, которая позволяет постоянно развиваться, идти в ногу со временем и преследует четкий видимый результат.
             </p>
           
             <p class="about__me__desc-3 desc">
-              Ищу работу или стажировку HTML-верстальщиком или junior-разработчиком. Буду рада стать стажером в Вашей компании. Также готова бесплатно сверстать Ваш проект при условии добавления его в мое портфолио.
+              Ищу работу HTML-верстальщиком или junior-разработчиком. С радостью приму участие в командных проектах. Готова бесплатно сверстать Ваш проект при условии добавления его в мое портфолио.
             </p>
           </div>
           
@@ -83,14 +83,14 @@
     </section>
   <!-- About me end -->
   <!-- Skills start -->
-    <section id="skills" class="skills">
+    <section  class="skills">
       <div class="wrapper">
-        <div class="skills__info__container">
+        <div class="skills__info__container"  id="my_skills" >
           <div class="skills__info">
             <h2 class="skills__title title">Навыки </h2>
             <div class="skills__cont__desc">
               <p class="skills__desc">
-                Верстаю с учетом севременных стандартов: семантичная верстка, кросбраузная, валидная, а также адаптивная. Использую сетки на flexbox, grid и float. Имею базовые представления о создании HTML шаблонов, и о работе с Wordpress.
+                Верстаю с учетом современных стандартов: семантическая верстка, кроссбраузерная, валидная, а также адаптивная. Использую сетки на flexbox, grid и float. Имею базовые представления о создании HTML шаблонов, и о работе с Wordpress.
               </p>
             </div>            
           </div>
@@ -156,13 +156,13 @@
     </section>
   <!-- Skills end -->
   <!-- Projects start -->
-    <section id="portfolio" class="projects">
+    <section  class="projects">
       <div class="wrapper">
-        <div class="projects__wrapp">
-          <h2 class="projects__title title">Портфолио</h2>
+        <div class="projects__wrapp" id="my_projects">
+          <h2 class="projects__title title" >Портфолио</h2>
           <div class="projects__info__container">
             <p class="projects__info">
-              В портфоли вы можете увидеть мои работы на данный момент. Присутствуют самостоятельно сверстанные макеты (HTML/CSS/JS, адаптивная верстка), результат работы на 2-х недельном интенсиве по JS от GoIt (сайт-резюме, модальные окна, адаптивная верстка, использование JS). А также, первый проект по верстке на недельном марафоне GoIt(резюме, HTML/CSS).
+              В портфолио вы можете увидеть мои работы на данный момент. Присутствуют самостоятельно сверстанные макеты (HTML/CSS/JS, адаптивная верстка), результат работы на 2-х недельном интенсиве по JS от GoIt (сайт-резюме, модальные окна, адаптивная верстка, использование JS). А также, первый проект по верстке на недельном марафоне GoIt(резюме, HTML/CSS).
           </p>
           </div>         
           <div class="projects__portfolio__cont">
@@ -172,7 +172,7 @@
                 Тренировочная работа. <br> 
                 Результат недельного марафона по изучению HTML, CSS. Один из первых проектов.
               </p>
-              <a href="https://b-mary.github.io/LendingResume/" class="projects__more ">See more </a>
+              <a href="https://b-mary.github.io/LendingResume/" class="projects__more " rel="external">See more </a>
             </div>
   
             <div class="projects__container">
@@ -181,7 +181,7 @@
                 Тренировачная работа.<br>
                Первый самостоятельно сверстанный макет HTML/CSS.
               </p>
-              <a href="https://b-mary.github.io/simple-layout/" class="projects__more ">See more </a>
+              <a href="https://b-mary.github.io/simple-layout/" class="projects__more " rel="external">See more </a>
             </div>
   
             <div class="projects__container">
@@ -190,7 +190,7 @@
                 Тренировачная работа.<br>
                Самостоятельно сверстанный макет сайта-путешествия с использованием HTML/CSS/JS, адаптивная верстка.
               </p>
-              <a href="https://b-mary.github.io/Travel-site/" class="projects__more ">See more </a>
+              <a href="https://b-mary.github.io/Travel-site/" class="projects__more " rel="external">See more </a>
             </div>
   
             <div class="projects__container">
@@ -200,7 +200,7 @@
                Результат 2-х недельного интенсива по JS от GoIt.
                Самостоятельно сверстанный макет сайта-резюме с использованием HTML/CSS/JS, модальные окна, адаптивная верстка.
               </p>
-              <a href="https://b-mary.github.io/my-resume/" class="projects__more">See more </a>
+              <a href="https://b-mary.github.io/my-resume/" class="projects__more" rel="external">See more </a>
             </div>
           </div>
 
@@ -210,9 +210,9 @@
   <!-- Projects end -->
   </main>
   <!-- Main end -->
-  <footer id="contact" class="footer">
-    <div class="wrapper">
-      <div class="footer__container">
+  <footer  class="footer">
+    <div class="wrapper" >
+      <div class="footer__container" id="my_contacts" >
         <h2 class="footer__title title">Контакты</h2>
 
         <div class="footer__container__contacts">
